@@ -9,7 +9,7 @@
 		</license>
 	</information>
 	<author>
-		<name>denev6</name>
+		<name>jin</name>
 		<homepage>https://dev-roo.tistory.com</homepage>
 		<email>sungjin.code@gmail.com</email>
 	</author>
@@ -99,7 +99,7 @@
 				<name>githubUserId</name>
 				<label><![CDATA[Github 아이디]]></label>
 				<type>STRING</type>
-				<default>denev6</default>
+				<default>example</default>
 				<description><![CDATA[프로필 영역 깃헙 아이디입니다.]]></description>
 			</variable>
 		</variablegroup>

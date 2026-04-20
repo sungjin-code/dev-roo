@@ -1,68 +1,68 @@
-# 티스토리 스킨 배포
+# 캥거루 스킨
 
-- `캥거루 스킨`: 개발자를 위한 스킨(코드, 수식 등)
-- `바다 스킨`: 작가를 위한 스킨(한글 중심)
+![preview](https://raw.githubusercontent.com/sungjin-code/dev-roo/legacy/tistory-skin/dev-roo/preview.webp)
 
-## 캥거루 스킨
+**개발자를 위한 깔끔한 티스토리 스킨**이에요. 수식과 코드 블록을 다루는 블로거라면 별도 수정 없이 바로 사용할 수 있도록 만들었어요.
 
-- 이름: dev-roo
-- 버전: 1.2.1
-- 저작권: MIT License
+[MIT License](#라이선스)에 따라 상업적 또는 개인적으로 사용 가능해요.
 
-![캥거루 미리보기](/dev-roo/skin/preview1600.jpg)
+## 주요 기능
 
-캥거루 스킨은 개발자를 위한 깔끔한 티스토리 스킨입니다.
+- ✅ **자동 목차** — 본문 제목 아래에 자동 생성
+- ✅ **코드 블록 하이라이팅** — Highlight.js 기반 (라이트/다크 모드 선택 가능)
+- ✅ **수식 포맷팅** — MathJax3로 LaTeX 문법 렌더링 (on/off 가능)
+- ✅ **다양한 인용구** — `@warning`, `@danger` 등 semantic blockquote
+- ✅ **일관된 디자인** — 표, 구분선, 인용구까지 통일된 스타일
+- ✅ **쉬운 커스텀** — CSS 토큰 기반이라 색상 변경이 간단해요
+- ✅ **성능 & SEO 최적화** — 리소스 지연 로딩으로 빠른 첫 화면
 
-- 자동 목차
-- 코드 블록 하이라이팅
-- 수식 포맷팅
-- 다양한 인용구
-- 표 스타일 통일
-- 쉬운 커스텀 (CSS 토큰 활용)
+## 빠른 시작
 
-위와 같이 개발 블로그에 필요한 대부분의 기능을 제공합니다.
+1. [src](./src) 또는 [다운로드](https://dev-roo.tistory.com/entry/how-to)에서 파일을 받아요.
+2. 티스토리 관리자 → **꾸미기 > 스킨 변경 > 스킨 등록**으로 이동해요.
+3. 압축을 푼 파일을 모두 업로드해요. (`images` 폴더 내부 파일까지 전부 업로드해야 해요!)
 
-- 스킨 미리보기: [dev-roo.tistory/preview](https://dev-roo.tistory.com/entry/preview)
-- 스킨 소개: [dev-roo.tistory/about](https://dev-roo.tistory.com/entry/about)
-- 스킨 적용 방법: [dev-roo.tistory/how-to](https://dev-roo.tistory.com/entry/how-to)
-- 캥거루 편집 스타일 사용법: [dev-roo.tistory/dev-roo-style](https://dev-roo.tistory.com/entry/dev-roo-style)
+   **필수 파일 목록**
 
-※주의: 원본 스킨인 ["한눈에 스킨"](https://toyou101.tistory.com/16)에 *하단의 저작자 표시와 링크를 유지*라는 조건이 있습니다. 따라서 캥거루 스킨은 **하단의 저작자 표시와 링크를 유지**하는 조건에서 자유롭게 사용 가능합니다.
+   - `index.xml`
+   - `skin.html`
+   - `style.css`
+   - `code-dark.css`
+   - `code-light.css`
+   - `highlight.js`
 
-### 오픈소스
+4. 스킨 목록에서 등록한 스킨을 적용해요.
+5. **꾸미기 > 모바일**에서 "티스토리 모바일웹 자동 연결"을 **사용하지 않음**으로 바꿔요.
 
-[LICENSE](/dev-roo/skin/images/LICENSE)
+> 📖 상세 가이드: [스킨 다운로드 및 세팅 방법](https://dev-roo.tistory.com/entry/how-to)
 
-## 바다 스킨
+## 더 알아보기
 
-*"바다는 비에 젖지 않아."* - 노인과 바다 중.
+| 문서 | 링크 |
+| :--- | :--- |
+| 스킨 미리보기 | [preview](https://dev-roo.tistory.com/entry/preview) |
+| 스킨 소개 | [about](https://dev-roo.tistory.com/entry/about) |
+| 적용 방법 | [how-to](https://dev-roo.tistory.com/entry/how-to) |
+| 편집 스타일 사용법 | [dev-roo-style](https://dev-roo.tistory.com/entry/dev-roo-style) |
 
-티스토리 스킨 **바다(Bada)** 를 소개합니다.
+## 업데이트
 
-📘 바다는 오로지 글에만 집중할 수 있도록 만들어진 스킨입니다. 본문은 바탕체를 사용해 글의 심미적 가치를 높이고, 본문 외 영역은 돋움체로 보이도록 하여 접근성을 개선했습니다. 특히 한글의 가독성을 살리기 위해 영어보다는 한글에 맞게 자간과 행간을 세심하게 조정했습니다. 독자들이 더 편안하게, 더 깊이 글에 몰입할 수 있도록 노력했습니다.
+- **v1.2.2** — 마크다운 숫자 리스트가 보이지 않는 문제 수정
+- **v1.2.1** — `blockquote` 내 `@danger`, `@warning` 사용 시 한 줄만 표시되는 문제 수정
+- **v1.2.0**
+  - iOS 환경에서 코드 블록이 과도하게 커지는 문제 해결
+  - 구독 버튼 여백과 색상 개선
+  - Highlight.js 최신 버전으로 업데이트
+  - 기타 버그 및 사용성 개선
 
-💭 저는 공간을 단순히 여러 요소로 채우는 일보다, 불필요한 것들을 덜어내는 일이 더 중요하다고 생각합니다. 이 스킨을 제작하며 '무엇을 덧붙일까'보다는 '무엇을 비워낼까'에 대해 고민했습니다. 제가 정성을 다해 비워둔 이 여백이 작가님의 소중한 글로 채워지길 바랍니다. 작가님의 생각과 감정이 온전히 담기는 공간이 되었으면 합니다.
+## 라이선스
 
-*"바다는 비에 젖지 않아. 어떤 시련이 와도 시련에 젖지 않아."*
+[MIT License](/LICENSE)를 따라요. 원본인 [한눈에 스킨](https://toyou101.tistory.com/16)의 조건을 상속하여, **하단의 저작자 표시와 링크를 유지**하는 조건에서 자유롭게 사용·수정·재배포할 수 있어요.
 
-🌊 '바다'가 고요함을 선물하여, 어떤 비바람 속에서도 흔들림 없이 글을 써내려갈 수 있는 공간이 되기를 바랍니다.
+## 문의 & 제안
 
-기록을 사랑하는 개발자, 성진 올림.
+버그 제보나 기능 제안은 [Issues](/issues)에 남겨주세요. 블로그 댓글로도 괜찮아요.
 
-### 미리보기
+## 기타
 
-![바다 미리보기](/bada/_dev/mockup.png)
-
-예시 미리보기: [빈 책장](https://jokikomori.tistory.com/)
-
-- PC, 태블릿, 스마트폰에서 모두 사용 가능합니다.
-- 스마트폰에서도 스킨이 보이도록 하기 위해서 "설정 > 모바일"에서 티스토리 모바일웹 자동 연결을 "사용하지 않습니다."로 변경해야 합니다.
-- 티스토리 아이디가 아닌 작가님의 이름이 보이도록 하기 위해 "설정 > 스킨 편집 > 작가명"을 수정해 주세요.
-
-### 저작권
-
-버전: 1.0
-
-MIT LICENSE. 티스토리 `#1` 스킨을 기반으로 수정한 버전입니다.
-
-저작권 걱정하지 마시고, 개인적/상업적으로 자유롭게 사용하시면 됩니다. 다만 **스킨을 유료로 판매하는 행위는 엄격히 금지**합니다.
+기존의 바다(bada) 스킨은 [legacy/tistory-skin](https://github.com/sungjin-code/dev-roo/tree/legacy/tistory-skin)로 옮겨졌어요.
