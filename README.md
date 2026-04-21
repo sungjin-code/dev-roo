@@ -2,7 +2,7 @@
 
 ![preview](https://raw.githubusercontent.com/sungjin-code/dev-roo/legacy/tistory-skin/dev-roo/preview.webp)
 
-**개발자를 위한 깔끔한 티스토리 스킨**이에요. 수식과 코드 블록을 다루는 블로거라면 별도 수정 없이 바로 사용할 수 있도록 만들었어요.
+**개발자를 위한 깔끔한 티스토리 스킨**이에요. 수식과 코드를 다루는 블로거라면 별도의 수정 없이 바로 사용할 수 있어요.
 
 [MIT License](#라이선스)에 따라 상업적 또는 개인적으로 사용 가능해요.
 
@@ -20,7 +20,7 @@
 
 1. [src](./src) 또는 [다운로드](https://dev-roo.tistory.com/entry/how-to)에서 파일을 받아요.
 2. 티스토리 관리자 → **꾸미기 > 스킨 변경 > 스킨 등록**으로 이동해요.
-3. 압축을 푼 파일을 모두 업로드해요. (`images` 폴더 내부 파일까지 전부 업로드해야 해요!)
+3. 압축 푼 파일을 모두 업로드해요. (`images` 폴더 내부 파일까지 전부 업로드해야 해요!)
 
    **필수 파일 목록**
 
@@ -57,12 +57,9 @@
 
 ## 라이선스
 
-[MIT License](/LICENSE)를 따라요. 원본인 [한눈에 스킨](https://toyou101.tistory.com/16)의 조건을 상속하여, **하단의 저작자 표시와 링크를 유지**하는 조건에서 자유롭게 사용·수정·재배포할 수 있어요.
-
-## 문의 & 제안
-
-버그 제보나 기능 제안은 [Issues](/issues)에 남겨주세요. 블로그 댓글로도 괜찮아요.
+[MIT License](/LICENSE)를 따라요. 원본인 [한눈에 스킨](https://toyou101.tistory.com/16)의 조건을 상속하여, **하단의 저작자 표시와 링크를 유지**하는 조건으로 자유롭게 사용·수정·재배포할 수 있어요.
 
 ## 기타
 
-기존의 바다(bada) 스킨은 [legacy/tistory-skin](https://github.com/sungjin-code/dev-roo/tree/legacy/tistory-skin)로 옮겨졌어요.
+- 버그 제보나 기능 제안은 [Issues](https://github.com/sungjin-code/dev-roo/issues)에 남겨주세요. [블로그](https://dev-roo.tistory.com/entry/about) 댓글도 좋아요.
+- 기존의 바다(bada) 스킨은 [legacy/tistory-skin](https://github.com/sungjin-code/dev-roo/tree/legacy/tistory-skin)로 옮겨졌어요.
